@@ -1,0 +1,18 @@
+.RegisterPage{
+    margin: 0 150px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+.name-resgister{
+    border-bottom: 1px solid #f3f3f3;
+}
+.name-resgister>p{
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.register-group{
+    padding-top: 25px
+}

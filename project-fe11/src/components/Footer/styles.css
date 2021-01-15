@@ -1,0 +1,30 @@
+/* footer top */
+.footer-top{
+    padding: 10px 150px;
+    height: 250px;
+    background-color: #ffffff;
+}
+.heading{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.phone-support ul{
+    margin-top: 10px;
+    padding: 0;
+    font-size: 15px;
+    list-style-type: none;
+}
+/* footer bottom */
+.footer-bottom{
+    text-align: center;
+    align-items: center;
+    height: 90px;
+    padding: 10px 0;
+    background-color:#f0f0f0;
+    color: #999;
+    font-size: 80%;
+}
+.footer-info{
+    margin: 0 auto;
+}

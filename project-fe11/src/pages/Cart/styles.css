@@ -1,0 +1,54 @@
+/* CART PAGE */
+.CartPage{
+    margin: 0 300px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+.name-cart{
+    border-bottom: 1px solid #f3f3f3;
+}
+.name-cart>p{
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* SHOW CART */
+.show-cart{
+    margin: 20px;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.item-cart{
+    display: flex;
+}
+.item-cart>p{
+    margin-bottom: 10px;
+}
+.total-money{
+    margin: 5px 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* ShipmentDetailPage */
+.ShipmentDetailPage{
+    min-height: calc(100% - 268px);
+    margin: 20px 300px 0 300px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+.info-ship{
+    margin-top: 20px;
+}
+.btn-thanhtoan{
+    width: 60%;
+    font-weight: 500 !important;
+    height: 40px !important;
+}
+.btn-thanhtoan:hover{
+    background-color: #ffffff !important;
+    color: #288ad6 !important;
+}

@@ -1,0 +1,9 @@
+.ErrorPage{
+    margin: 0 150px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+}
+.name-error{
+    text-align: center;
+    padding: 20px 0px;
+}

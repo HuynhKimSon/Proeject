@@ -1,0 +1,45 @@
+/* PAGE MACBOOK */
+.MacbookPage{
+    margin: 0 150px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+}
+.nameMacBook-itemMenu{
+    border-bottom: 1px solid #f3f3f3;
+}
+    /* Page Macbook and Hot Trend */
+.list-macbook{
+    height: 340px;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    cursor: pointer;
+}
+.list-macbook-child{
+    padding: 5px 25px 0px;
+}
+.name-macbook p:hover{
+    color: #3366ff !important;
+} 
+/* HOVER SALE */
+.sale-macbook {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    bottom:20px;
+    padding:10px;
+
+    opacity: 0;
+    line-height: 25px;
+    background-color:#f0f0f0;
+    color: black;
+}
+.sale-macbook>ul>li>span{
+    font-weight: 500;
+    color: red;
+}
+.list-macbook:hover div.sale-macbook {
+    opacity: 2;
+    transform: translateY(20px);
+    transition:ease-in-out 0.5s;
+}

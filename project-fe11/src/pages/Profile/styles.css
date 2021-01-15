@@ -1,0 +1,71 @@
+/* PROFILE PAGE */
+.ProfilePage{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 250px;
+}
+/* PROFILE */
+.Profile {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 20px 30px ;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.ava-profile{
+    display: flex !important;
+    justify-content: center;
+    padding: 20px 0px ;
+}
+.name-user{
+    border-bottom: 1px  solid #f3f3f3 ;
+}
+.name-user>p{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+.info-profile{
+    display: flex !important;
+    align-items: center;
+    padding-top: 10px;
+    border-bottom: 1px  solid #f3f3f3 ;
+    font-size: 14.5px;
+}
+/* IMAGE IN PROFILE */
+.ImageProfile{
+    width: 47%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+/* HISTORY PURCHASE  */
+.HistoryPage{
+    min-height: calc(100% - 268px);
+    margin: 20px 280px;
+    border: 1px solid #f3f3f3;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.show-history{
+    margin: 10px 20px;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.name-history{
+    border-bottom: 1px solid #f3f3f3;
+}
+.name-history>p{
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.date{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    font-weight: 500;
+}

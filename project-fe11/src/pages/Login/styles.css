@@ -1,0 +1,18 @@
+.LoginPage{
+    margin: 0 150px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    justify-content: space-around;
+}
+.name-login{
+    border-bottom: 1px solid #f3f3f3;
+}
+.name-login>p{
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-group{
+    padding-top: 30px;
+}
