@@ -1,44 +1,48 @@
 /* PAGE APPLE WATCH */
-.ApplewatchPage{
+.ApplewatchPage {
     margin: 0 150px;
     border: 1px solid #f3f3f3;
     background-color: #ffffff;
 }
-.nameAppleWatch-itemMenu{
+.nameAppleWatch-itemMenu {
     border-bottom: 1px solid #f3f3f3;
 }
-    /* Page Apple Watch and Hot Trend */
-.list-applewatch{
+/* Page Apple Watch and Hot Trend */
+.list-applewatch {
     border-right: 1px solid #f3f3f3;
     border-bottom: 1px solid #f3f3f3;
     cursor: pointer;
 }
-.list-applewatch-child{
+.list-applewatch-child {
     padding: 5px 25px 0px;
 }
-.name-applewatch p:hover{
+.name-applewatch p:hover {
     color: #3366ff !important;
-} 
+}
 /* HOVER SALE */
 .sale-applewatch {
     position: absolute;
     width: 100%;
     height: 100%;
-    
-    bottom:20px;
-    padding:10px;
+
+    bottom: 20px;
+    padding: 10px;
 
     opacity: 0;
     line-height: 25px;
-    background-color:#f0f0f0;
+    background-color: #f0f0f0;
     color: black;
 }
-.sale-applewatch>ul>li>span{
+.sale-applewatch > ul > li > span {
     font-weight: 500;
     color: red;
 }
 .list-applewatch:hover div.sale-applewatch {
     opacity: 2;
     transform: translateY(20px);
-    transition:ease-in-out 0.5s;
+    transition: ease-in-out 0.5s;
+}
+.image-applewatch {
+    display: flex;
+    justify-content: center;
 }
