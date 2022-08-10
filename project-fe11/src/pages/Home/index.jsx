@@ -214,7 +214,7 @@ function Home({
                 >
                     <Carousel autoplay autoplaySpeed={2500}>
                         <div className="carousel-image">
-                            <img src="https://exphone.vn/uploads/2020/09/SLIDE-WEB-1.png" alt="#"/>
+                            <img src="https://exphone.vn/uploads/2020/09/SLIDE-WEB-1.png" alt="#" />
                         </div>
                         <div className="carousel-image">
                             <img src="https://exphone.vn/uploads/2020/09/slide_755x300_web_s3_moi.png" alt="#" />

@@ -95,7 +95,7 @@ function Header({
                                     onClick={() => history.push('/login')}
                                 >
                                     <UserOutlined />
-                                Đăng Nhập
+                                    Đăng Nhập
                                 </Button>
                                 )
                                 : (
@@ -122,7 +122,7 @@ function Header({
                                             message: `Bạn cần phải đăng nhập tài khoản!`,
                                             className: 'custom-class',
                                             duration: 1.5,
-                                            icon: <InfoCircleOutlined  style={{marginTop: 6,color:"#fc0303"}} />,
+                                            icon: <InfoCircleOutlined style={{ marginTop: 6, color: "#fc0303" }} />,
                                             style: {
                                                 width: 350,
                                                 backgroundColor: "#ffffff",

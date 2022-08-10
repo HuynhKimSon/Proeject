@@ -1,18 +1,21 @@
 /* BANNER TOP  */
-.HomeCarousel{
+.HomeCarousel {
     display: flex !important;
     margin: 0 150px;
 }
-.carousel{
+.carousel {
     width: 68%;
 }
-.advertisement{
+.advertisement {
     width: 32%;
     padding: 10px;
     background-color: #ffffff;
 }
 /* HOME PAGE */
-.HomePhone, .HomeIpad, .HomeAppleWatch, .HomeMacBook {
+.HomePhone,
+.HomeIpad,
+.HomeAppleWatch,
+.HomeMacBook {
     margin: 20px 150px 0px 150px;
     border: 1px solid #f3f3f3;
     background-color: #ffffff;
@@ -30,6 +33,6 @@
     margin-top: 20px;
     background-color: #ffffff;
 }
-.col-homebaner{
+.col-homebaner {
     padding: 0 150px;
 }
